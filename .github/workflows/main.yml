@@ -1,0 +1,17 @@
+name: Multiple Zigbee2mqtt Home Assistant add-ons
+
+on:
+  schedule:
+    - cron: '*/30 * * * *' # every 30 minutes
+  workflow_dispatch: # on button click
+
+jobs:
+  sync:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: andreypolyak/zigbee2mqtt-multi-addon-action@v1.0
+        with:
+          addon_names: "Entrance, Bedroom, Switches"
+          github_token: ${{ github.token }}
