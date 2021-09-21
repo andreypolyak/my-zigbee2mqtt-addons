@@ -13,5 +13,5 @@ jobs:
     steps:
       - uses: andreypolyak/zigbee2mqtt-multi-addon-action@v1.0
         with:
-          addon_names: "Entrance, Bedroom, Switches"
+          addon_names: "Entrance, Bedroom, Switches, Test"
           github_token: ${{ github.token }}
