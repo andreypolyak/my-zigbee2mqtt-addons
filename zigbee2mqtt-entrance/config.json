@@ -1,6 +1,6 @@
 {
  "name": "Zigbee2mqtt Entrance",
- "version": "1.21.2-1",
+ "version": "1.22.0-2",
  "slug": "zigbee2mqtt_entrance",
  "description": "Use your ZigBee devices without the vendor's bridge or gateway (Entrance)",
  "uart": true,
