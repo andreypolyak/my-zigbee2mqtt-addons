@@ -1,6 +1,6 @@
 {
  "name": "Zigbee2mqtt Kitchen",
- "version": "1.22.0-2",
+ "version": "1.22.0-3",
  "slug": "zigbee2mqtt_kitchen",
  "description": "Use your ZigBee devices without the vendor's bridge or gateway (Kitchen)",
  "uart": true,
@@ -75,6 +75,7 @@
    "port": 8099
   },
   "experimental": {},
+  "availability": false,
   "socat": {
    "enabled": false,
    "master": "pty,raw,echo=0,link=/tmp/ttyZ2M,mode=777",
@@ -176,6 +177,7 @@
    "transmit_power": "int?",
    "output": "str?"
   },
+  "availability": "bool?",
   "frontend": {
    "host": "str?",
    "port": "int?"
