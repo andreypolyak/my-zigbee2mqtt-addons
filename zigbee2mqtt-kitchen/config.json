@@ -1,6 +1,6 @@
 {
  "name": "Zigbee2mqtt Kitchen",
- "version": "1.25.0-1",
+ "version": "1.25.1-1",
  "slug": "zigbee2mqtt_kitchen",
  "description": "Use your ZigBee devices without the vendor's bridge or gateway (Kitchen)",
  "uart": true,
