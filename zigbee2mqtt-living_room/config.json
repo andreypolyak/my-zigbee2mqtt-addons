@@ -1,6 +1,6 @@
 {
  "name": "Zigbee2mqtt Living Room",
- "version": "1.25.1-2",
+ "version": "1.25.2-1",
  "slug": "zigbee2mqtt_living_room",
  "description": "Use your ZigBee devices without the vendor's bridge or gateway (Living Room)",
  "uart": true,
